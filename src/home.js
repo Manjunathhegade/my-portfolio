@@ -42,8 +42,8 @@ export default function App(props) {
 
   });
 
-  const downloadresume=()=>{
-     saveAs("./resume.pdf", "resume.pdf")
+  const downloadresume = () => {
+    saveAs("./resume.pdf", "resume.pdf")
   }
 
   const _onloaderFalse = () => {
@@ -440,7 +440,7 @@ export default function App(props) {
                     fontSize: 13,
                   }}
                 >
-                  <a href='#' onClick={()=>downloadresume()}  style={{ textDecoration: 'none', display: 'flex', flexDirection: 'row' }}>
+                  <a href='#' onClick={() => downloadresume()} style={{ textDecoration: 'none', display: 'flex', flexDirection: 'row' }}>
                     <div style={{ color: "#8a8c8e" }}>DOWNLOAD CV </div> <GetAppIcon style={{ color: "#8a8c8e" }} />
                   </a>
                 </div>
@@ -692,78 +692,6 @@ export default function App(props) {
                     </div>
                     {/* <div className="chat-shape"></div> */}
                   </div>
-                  {/* <div className="main-education-card">
-                      <div className="main-studies-card-heading">
-                        <div className="studies-card-heading">
-                          DVS (independent) PU College
-                        </div>
-                        <div className="studies-card-duration">
-                          <div
-                            style={{
-                              display: "flex",
-                              justifyContent: "center",
-                              marginTop: 8,
-                            }}
-                          >
-                            apr 2013 - apr 2015
-                          </div>
-                        </div>
-                      </div>
-                      <div className="studies-card-body">
-                        Completed my pre-university course in DVS (independent)
-                        PU College. Combination - Science (PCMB). In
-                        Shivmogga(D)
-                      </div>
-                      <div className="studies-card-footer ">
-                        <div>PUC</div>
-                        <div className="arrow bounce-out-on-hover">
-                          <SchoolIcon
-                            style={{
-                              color: "#ffc107",
-                              fontSize: 16,
-                              fontWeight: 600,
-                              marginLeft: 10,
-                            }}
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="main-education-card">
-                      <div className="main-studies-card-heading">
-                        <div className="studies-card-heading">
-                          BVS school-Honnali
-                        </div>
-                        <div className="studies-card-duration">
-                          <div
-                            style={{
-                              display: "flex",
-                              justifyContent: "center",
-                              marginTop: 8,
-                            }}
-                          >
-                            mar 2013
-                          </div>
-                        </div>
-                      </div>
-                      <div className="studies-card-body">
-                        I have completed my High School studies in BVS English
-                        medium school-Honnali and my Primary in BVS Kannada
-                        Medium school-Honnali
-                      </div>
-                      <div className="studies-card-footer ">
-                        <div>School</div>
-                        <div className="arrow bounce-out-on-hover">
-                          <SchoolIcon
-                            style={{
-                              color: "#ffc107",
-                              fontSize: 16,
-                              fontWeight: 600,
-                              marginLeft: 10,
-                            }}
-                          />
-                        </div>
-                      </div>
-                    </div> */}
                 </div>
                 <div className="studies-work-middle-div bounce-out-on-hover">
                   <div className="studies-work-middle-sub">
@@ -775,10 +703,6 @@ export default function App(props) {
                       <div style={{ height: 2 }}></div>
                       <div className="studies-work-middle-circle-two"></div>
                     </div>
-                    {/* <div className="studies-work-middle-circle">
-                        <div style={{ height: 2 }}></div>
-                        <div className="studies-work-middle-circle-two"></div>
-                      </div> */}
                   </div>
                 </div>
                 {/* work history */}

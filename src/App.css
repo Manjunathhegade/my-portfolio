@@ -296,7 +296,7 @@ body {
   top: 350px;
   left: 80px;
 }
-@media (min-width: 481px) and (max-width: 1000px) {
+@media (min-width: 300px) and (max-width: 1000px) {
   .left-main-img-container {
     /* width: 1320px; */
     position: relative;
@@ -444,7 +444,7 @@ body {
   margin-top: 10px;
 }
   /* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 1000px) {
+@media (min-width: 300px) and (max-width: 1000px) {
   .studies-and-work-history-main-container {
     display: flex;
     flex-wrap: wrap;
@@ -467,12 +467,6 @@ body {
   }
   .left-years-conatiner-2sub-Completed-Projects{
     display: none;
-  }
-  .main-education-card {
-    height: auto;
-    /* width: 430px; */
-    background-color: #242430;
-    margin-bottom: 18px;
   }
 }
 
@@ -503,7 +497,7 @@ body {
 }
 .main-education-card {
   height: auto;
-  width: 430px;
+  /* width: 430px; */
   background-color: #242430;
   margin-bottom: 18px;
 }
@@ -518,7 +512,19 @@ body {
   margin-top: 50px;
   width: 5px;
   height: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
   background-color: rgb(20, 20, 20);
+}
+@media (min-width: 300px) and (max-width: 1000px) {
+  .main-education-card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    /* width: 430px; */
+    background-color: #242430;
+    margin-bottom: 18px;
+  }
 }
 .studies-work-middle-circle {
   width: 19px;
@@ -565,10 +571,11 @@ body {
   margin-bottom: 18px;
 }
 .main-work-card {
-  width: 400px;
+  /* width: 400px; */
   height: auto;
   background-color: #242430;
   margin-bottom: 18px;
+  margin-left: 10px;
 }
 .studies-work-last-div {
   color: #fff;
@@ -580,6 +587,8 @@ body {
   margin-top: 50px;
   width: 5px;
   height: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
   background-color: rgb(20, 20, 20);
 }
 .studies-card-heading {
@@ -613,10 +622,13 @@ body {
 .main-studies-card-heading {
   display: flex;
   flex-direction: row;
+  height: auto;
   justify-content: space-between;
 }
 .studies-card-duration {
-  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  height: auto;
   width: 170px;
   border-radius: 30px;
   background-color: #191923;
@@ -625,8 +637,24 @@ body {
   font-family: sans-serif;
   font-weight: 300;
   margin: 25px;
+  margin-left: 10px;
 }
-
+@media (min-width: 300px) and (max-width: 700px) {
+  .studies-card-duration {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 170px;
+    border-radius: 30px;
+    background-color: #191923;
+    font-size: 10px;
+    color: rgb(121, 120, 120);
+    font-family: sans-serif;
+    font-weight: 300;
+    margin: 25px;
+    margin-left: 10px;
+  }
+}
 /* contact */
 .main-contact-container {
   display: flex;
@@ -637,7 +665,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
-@media (min-width: 481px) and (max-width: 1000px) {
+@media (min-width: 300px) and (max-width: 1000px) {
   .sub-contact-container {
     display: flex;
     flex-wrap: wrap;
@@ -646,11 +674,17 @@ body {
     /* flex-direction: column; */
   }
   .main-work-card {
-    width: 430px;
+    /* width: 430px; */
     height: auto;
     background-color: #242430;
     margin-bottom: 18px;
   }
+  .main-studies-card-heading{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+  }
+  
 }
 .contact-card {
   height: auto;
@@ -688,6 +722,7 @@ body {
   justify-content: space-between;
   font-family: sans-serif;
   font-weight: 400;
+  font-size: 12px;
   color: rgb(140, 140, 142);
 }
 
@@ -725,6 +760,7 @@ body {
   display: flex;
   justify-content: flex-end;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 .viewmore{
  color: #ffc107;
@@ -734,6 +770,7 @@ body {
 .repomaincontainer{
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .repoheading {
   font-size: 28px;
@@ -750,6 +787,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-left: 20px;
 }
 .workmaincontainer{
   display: flex;
@@ -801,4 +839,8 @@ body {
   flex-direction: column;
   position: relative;
   /* overflow-y: scroll; */
+}
+.studies-work-middle-div bounce-out-on-hover{
+  margin-left:20px;
+  margin-right: 20px;
 }
