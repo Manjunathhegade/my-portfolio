@@ -7,10 +7,132 @@ export default function WorkAndEducation(props) {
         <div className="workmaincontainer">
             <div className="workheadingcontainer1">
                 <div className="repoheading">
-                    Education
+                    Work History
                 </div>
             </div>
             <div className="edumaincontainer">
+                {/* 1st card */}
+                <div className="main-work-card">
+                    <div className="main-studies-card-heading">
+                        <div className="studies-card-heading">
+                            Happiest Minds Technologies Limited
+                        </div>
+                        <div className="studies-card-duration">
+                            <div
+                                style={{
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    marginTop: 7,
+                                    paddingBottom:4
+                                }}
+                            >
+                                aug 2019 - nov 2019
+                            </div>
+                        </div>
+                    </div>
+                    <div className="studies-card-body">
+                        I started my career in Happiest Minds Technologies
+                        Limited working as a co-ordinator in learning and
+                        development team.
+                    </div>
+                    <div className="studies-card-footer ">
+                        <div>Co-ordinator-L&D</div>
+                        <div className="arrow bounce-out-on-hover">
+                            <WorkIcon
+                                style={{
+                                    color: "#ffc107",
+                                    fontSize: 16,
+                                    fontWeight: 600,
+                                    marginLeft: 10
+                                }}
+                            />
+                        </div>
+                    </div>
+                </div>
+                {/* 2nd card */}
+                <div className="main-work-card">
+                    <div className="main-studies-card-heading">
+                        <div className="studies-card-heading">
+                            Medicloq Services Private Limited
+                        </div>
+                        <div className="studies-card-duration">
+                            <div
+                                style={{
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    marginTop: 8,
+                                }}
+                            >
+                                nov 2019 - june 2021
+                            </div>
+                        </div>
+                    </div>
+                    <div className="studies-card-body">
+                        I joined Medicloq Services Private Limited as Associate
+                        Software Engineering role and i have working with the
+                        libraries and frameworks based on javascript language.
+                    </div>
+                    <div className="studies-card-footer ">
+                        <div>Software Engineer</div>
+                        <div className="arrow bounce-out-on-hover">
+                            <WorkIcon
+                                style={{
+                                    color: "#ffc107",
+                                    fontSize: 16,
+                                    fontWeight: 600,
+                                    marginLeft: 10,
+                                    paddingBottom:4
+                                }}
+                            />
+                        </div>
+                    </div>
+                </div>
+                {/* 3rd card */}
+                <div className="main-work-card">
+                    <div className="main-studies-card-heading">
+                        <div className="studies-card-heading">
+                            ContinuServe, LLC.
+                        </div>
+                        <div className="studies-card-duration">
+                            <div
+                                style={{
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    marginTop: 7,
+                                    paddingBottom:4
+                                }}
+                            >
+                                sept 2021 - **
+                            </div>
+                        </div>
+                    </div>
+                    <div className="studies-card-body">
+                    I am currently employed as a Senior Technical Analyst
+                    at ContinuServ, LLC, where I have been serving for 
+                    over two years.
+                    </div>
+                    <div className="studies-card-footer ">
+                        <div>Senior Technical Analyst - A3</div>
+                        <div className="arrow bounce-out-on-hover">
+                            <WorkIcon
+                                style={{
+                                    color: "#ffc107",
+                                    fontSize: 16,
+                                    fontWeight: 600,
+                                    marginLeft: 10,
+                                    paddingBottom:4
+                                }}
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="workheadingcontainer1">
+                <div className="repoheading">
+                    Education
+                </div>
+            </div>
+            <div className="workhistorymaincontainer">
                 {/* 1st card */}
                 <div className="main-education-card">
                     <div className="main-studies-card-heading">
@@ -23,6 +145,7 @@ export default function WorkAndEducation(props) {
                                     display: "flex",
                                     justifyContent: "center",
                                     marginTop: 8,
+                                    paddingBottom:4
                                 }}
                             >
                                 aug 2015 - apr 2019
@@ -43,6 +166,7 @@ export default function WorkAndEducation(props) {
                                     fontSize: 16,
                                     fontWeight: 600,
                                     marginLeft: 10,
+                                    paddingBottom:4
                                 }}
                             />
                         </div>
@@ -80,12 +204,13 @@ export default function WorkAndEducation(props) {
                                     fontSize: 16,
                                     fontWeight: 600,
                                     marginLeft: 10,
+                                    paddingBottom:4
                                 }}
                             />
                         </div>
                     </div>
                 </div>
-                {/* 3rd card */}
+                {/* 3rd card  done ulta style classes*/}
                 <div className="main-education-card">
                     <div className="main-studies-card-heading">
                         <div className="studies-card-heading">
@@ -97,6 +222,7 @@ export default function WorkAndEducation(props) {
                                     display: "flex",
                                     justifyContent: "center",
                                     marginTop: 8,
+                                    paddingBottom:4
                                 }}
                             >
                                 mar 2013
@@ -117,92 +243,12 @@ export default function WorkAndEducation(props) {
                                     fontSize: 16,
                                     fontWeight: 600,
                                     marginLeft: 10,
+                                    paddingBottom:4
                                 }}
                             />
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="workheadingcontainer1">
-                <div className="repoheading">
-                    Work History
-                </div>
-            </div>
-            <div className="workhistorymaincontainer">
-                {/* 1st card */}
-                <div className="main-work-card">
-                    <div className="main-studies-card-heading">
-                        <div className="studies-card-heading">
-                            Happiest Minds Technologies Limited
-                        </div>
-                        <div className="studies-card-duration">
-                            <div
-                                style={{
-                                    display: "flex",
-                                    justifyContent: "center",
-                                    marginTop: 8,
-                                }}
-                            >
-                                aug 2019 - nov 2019
-                            </div>
-                        </div>
-                    </div>
-                    <div className="studies-card-body">
-                        I started my career in Happiest Minds Technologies
-                        Limited working as a co-ordinator in learning and
-                        development team.
-                    </div>
-                    <div className="studies-card-footer ">
-                        <div>Co-ordinator-L&D</div>
-                        <div className="arrow bounce-out-on-hover">
-                            <WorkIcon
-                                style={{
-                                    color: "#ffc107",
-                                    fontSize: 16,
-                                    fontWeight: 600,
-                                    marginLeft: 10,
-                                }}
-                            />
-                        </div>
-                    </div>
-                </div>
-                {/* 2nd card */}
-                <div className="main-work-card">
-                      <div className="main-studies-card-heading">
-                        <div className="studies-card-heading">
-                          Medicloq Services Private Limited
-                        </div>
-                        <div className="studies-card-duration">
-                          <div
-                            style={{
-                              display: "flex",
-                              justifyContent: "center",
-                              marginTop: 8,
-                            }}
-                          >
-                            nov 2019 - june 2021
-                          </div>
-                        </div>
-                      </div>
-                      <div className="studies-card-body">
-                        I joined Medicloq Services Private Limited as Associate
-                        Software Engineering role and i have working with the
-                        libraries and frameworks based on javascript language.
-                      </div>
-                      <div className="studies-card-footer ">
-                        <div>Software Engineer</div>
-                        <div className="arrow bounce-out-on-hover">
-                          <WorkIcon
-                            style={{
-                              color: "#ffc107",
-                              fontSize: 16,
-                              fontWeight: 600,
-                              marginLeft: 10,
-                            }}
-                          />
-                        </div>
-                      </div>
-                    </div> 
             </div>
         </div>
     )

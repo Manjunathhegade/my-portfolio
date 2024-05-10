@@ -19,7 +19,6 @@ import Container from '@material-ui/core/Container';
 import {
   useNavigate
 } from "react-router-dom";
-
 import "./App.css";
 
 export default function App(props) {
@@ -43,7 +42,7 @@ export default function App(props) {
   });
 
   const downloadresume = () => {
-    saveAs("./resume.pdf", "resume.pdf")
+    saveAs("/Assets/resume.pdf", "resume.pdf")
   }
 
   const _onloaderFalse = () => {
@@ -97,7 +96,7 @@ export default function App(props) {
                 Full-stack Developer
               </div>
               <div className="right-job-title-container2">
-                2.6 + Year Experience
+                4.5  Year Experience
               </div>
             </div>
             <div className="RightMainContainerBody">
@@ -515,7 +514,7 @@ export default function App(props) {
                 Manjunath Hegade DR
               </div>
               <div className="top-left-job-container">
-                Associate Software Engineer
+                Senior Technical Analyst
               </div>
               <div class="left-image-contact-button py-5 text-center">
                 <a
@@ -536,7 +535,7 @@ export default function App(props) {
                     fontWeight: "bold",
                   }}
                 >
-                  2.6 +
+                  4.5
                 </div>
                 <div className="year-experiace">Year Of Experience</div>
               </div>
@@ -664,7 +663,8 @@ export default function App(props) {
                             style={{
                               display: "flex",
                               justifyContent: "center",
-                              marginTop: 8,
+                              marginTop: 7,
+                              paddingBottom:4
                             }}
                           >
                             aug 2015 - apr 2019
